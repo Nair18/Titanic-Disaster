@@ -6,7 +6,7 @@
 setwd("~/Kaggle/Titanic")
 train <- read.csv("train.csv")
 test <- read.csv("test.csv")
-
+#i have added this line
 # Install and load required packages for decision trees and forests
 library(rpart)
 install.packages('randomForest')
